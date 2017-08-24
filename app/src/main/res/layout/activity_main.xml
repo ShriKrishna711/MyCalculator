@@ -77,7 +77,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:padding="0px"
-                android:onClick="divOp"
+                android:onClick="doOp"
                 android:text="/" />
 
             <Button
@@ -128,7 +128,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 style="@style/OrangeBut"
-                android:onClick="mulOp"
+                android:onClick="doOp"
                 android:text="*" />
 
             <Button
@@ -137,7 +137,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 style="@style/WhiteBut"
-                android:onClick="modOp"
+                android:onClick="doOp"
                 android:text="%" />
 
         </TableRow>
@@ -180,7 +180,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 style="@style/OrangeBut"
-                android:onClick="subOp"
+                android:onClick="doOp"
                 android:text="-" />
 
             <Button
@@ -224,7 +224,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 style="@style/OrangeBut"
-                android:onClick="addOp"
+                android:onClick="doOp"
                 android:text="+" />
 
             <Button
